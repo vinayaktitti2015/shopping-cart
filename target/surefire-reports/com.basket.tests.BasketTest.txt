@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.basket.tests.BasketTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.080 s <<< FAILURE! -- in com.basket.tests.BasketTest
+com.basket.tests.BasketTest.testSingleItem -- Time elapsed: 0.010 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Apple should cost 35p ==> expected: <50> but was: <35>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:559)
+	at com.basket.tests.BasketTest.testSingleItem(BasketTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
